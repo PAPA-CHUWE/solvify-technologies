@@ -1,13 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import {
-  faHome,
-  faUser,
-  faBriefcase,
-  faEnvelope,
-  faPrescription,
-} from "@fortawesome/free-solid-svg-icons";
 import { navVariants } from "./variants"; // Importing variants
 import { Box, Typography } from "@mui/material";
 import { Spacer } from "@nextui-org/react";
@@ -24,27 +17,27 @@ const NavLinks = [
   {
     id: "home",
     title: "Home",
-    icon: faHome,
+    icon: null,
   },
   {
     id: "products",
     title: "Products",
-    icon: faPrescription,
+    icon: null,
   },
   {
     id: "services",
     title: "Services",
-    icon: faBriefcase,
+    icon: null,
   },
   {
     id: "aboutus",
     title: "About Us",
-    icon: faUser,
+    icon: null,
   },
   {
     id: "contactus",
     title: "Contact Us",
-    icon: faEnvelope,
+    icon: null,
   },
 ];
 
