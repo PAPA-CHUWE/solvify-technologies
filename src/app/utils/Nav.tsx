@@ -56,7 +56,6 @@ const NavLink = ({ id, title, icon, isActive, handleClick }: NavLinkProps) => {
       className="flex items-center space-x-3 cursor-pointer" // Moved class to motion.li
       onClick={() => handleClick(id)}
     >
-      <FontAwesomeIcon icon={icon} className="w-[10px] h-[10px]" />
       <a href={`#${id}`} className={`relative inline-block group ${isActive ? 'text-[#BE8400]' : ''}`}>
         {title}
         <span className="absolute inset-x-0 bottom-0 h-0.5 bg-[#BE8400] transition-all duration-300 w-0 group-hover:w-full"></span>
