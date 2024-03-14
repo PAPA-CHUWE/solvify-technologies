@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply text-primary bg-body;
+  }
+  p{
+    @apply text-secondary
+  }
+  .h1{
+    @apply text-4xl xl:text-[64px]
+  }
+}
